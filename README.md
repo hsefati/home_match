@@ -17,10 +17,15 @@ pip install -r requirements.txt
 
 ## Usage  
 1. Set up your OpenAI API key in the environment variables.  
-2. Run the notebook to process property data and generate recommendations.  
+2. Run the notebook to process property data and generate recommendations.
+3. Please keep in mind that config and utils files contains helper functions and the configuration
 
 ## Dependencies  
 - Python  
 - LangChain  
 - OpenAI API  
 - ChromaDB
+
+## ToDO:
+- Get the answers to the questions during the runtime rather than saved configuraitons
+- Add CLIP features to the project to support search based on picture.
